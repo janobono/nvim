@@ -16,6 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup {
     require 'plugins.neotree',
     require 'plugins.colortheme',
+    require 'plugins.bufferline',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
