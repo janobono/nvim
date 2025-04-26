@@ -21,6 +21,7 @@ require('lazy').setup {
     require 'plugins.treesitter',
     require 'plugins.telescope',
     require 'plugins.lsp',
+    require 'plugins.autocompletion',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
