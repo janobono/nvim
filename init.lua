@@ -22,6 +22,7 @@ require('lazy').setup {
     require 'plugins.telescope',
     require 'plugins.lsp',
     require 'plugins.autocompletion',
+    require 'plugins.none-ls',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
