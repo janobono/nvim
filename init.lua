@@ -17,6 +17,7 @@ require('lazy').setup {
     require 'plugins.neotree',
     require 'plugins.colortheme',
     require 'plugins.bufferline',
+    require 'plugins.lualine',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
